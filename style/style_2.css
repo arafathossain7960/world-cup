@@ -1,0 +1,33 @@
+.match-blog{
+    border: 0.5px solid lightgray;
+    padding: 20px;
+}
+.flag{
+    display: flex;
+    justify-content: center;
+}
+.flag-info{
+    margin-top: 15px;
+}
+.flag-info h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+.flag-info p{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/*--- menu button style --- */
+.match-button{
+    background-color: goldenrod;
+    color: white;
+}
+.blog-page-button{
+    background-color: white;
+    color: black;
+}
+
+.match-button a{
+text-decoration: none;
+}

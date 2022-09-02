@@ -1,0 +1,37 @@
+
+@media only screen and (max-width: 600px) {
+    body{
+        margin: 0 auto;
+    }
+    /* --- header style --- */
+    #header{
+        display: block;
+        text-align: center;
+    }
+
+    /* --- menu style ----- */
+    .main-container{
+        margin: 50px 100px;
+       display: flex;
+       flex-direction: column;
+     }
+    .menu{
+        height: 300px;
+        background-color: black;
+        border-radius: 15px;
+        display: block;
+       
+     }
+/* --- blogs style ---- */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+
+ }
+   /* --- footer style ---- */
+   .footer-info{
+    display: block;
+   }
+
+}
